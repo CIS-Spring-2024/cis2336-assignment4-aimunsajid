@@ -1,0 +1,562 @@
+HEAD
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #b31616;
+    color: #ce1515;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #d71818; 
+    color: #b90303;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background-color: #d71818; 
+
+}
+
+nav ul {
+    list-style: none;
+    
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f20909;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    line-height: 40px;
+    height: 300px;
+}
+
+h2 {
+    color:  #d71818;
+    text-align: left;
+    height: 50px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #d71818;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+/* Hover effects for navigation menu links */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Container styles */
+.container {
+text-align: center;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #d71818;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    background-color: #1a252f;
+}
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color:rgb(202, 2, 42);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffa500; /* Change to a different color on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px; /* Increase spacing between sections */
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Owner info styles */
+.owner-info {
+    display: flex;
+    align-items: center;
+}
+
+.owner-info img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.owner-details {
+    flex: 1;
+}
+
+.p1 {
+text-align: center;
+}
+
+#menu-container {
+    border: 5px solid red; /* Adjust the border thickness as needed */
+    padding: 20px;
+    margin: auto;
+    max-width: 960px; /* Adjust based on your layout's needs */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+    background-color: #FFFFFF; /* Optional: ensures the background is white */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFF8DC;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.menu-item {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff8dc;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+.menu-item img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.menu-item h2, .menu-item h3 {
+    margin: 0;
+    color: crimson;
+}
+
+.menu-item p {
+    margin: 5px 0 0;
+    color: #333;
+    padding-left: 5%;
+}
+
+.menu-section {
+    margin-bottom: 40px;
+}
+
+.menu-section h2 {
+    color: crimson;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu-item h3 {
+    margin-bottom: 10px; /* Adjust this value to increase or decrease the space */
+    color: Crimson;
+}
+
+#menu-title {
+    border: 2px solid rgb(176, 4, 39); /* Solid border with the color of your choice */
+    display: block; /* Changed to block to allow centering */
+    padding: 10px; /* Adds some space around the text inside the border */
+    margin: 20px auto; /* Top and bottom margins with auto left and right margins for centering */
+    border-radius: 10px; /* Optional: rounds the corners of the border */
+    text-align: center; /* Centers the text within the element */
+    font-size: 24px; /* Increases the font size, adjust as needed */
+    font-weight: bold; /* Makes the font weight bold */
+}
+#biography h1{
+    text-align: center;
+    font-size:xx-large;
+}
+.owner-details h3 {
+    font-size: larger;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color:  #eee9c7;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    
+    
+}
+.owner-details p {
+ text-align: center;
+ font-size: larger;
+ font-weight: 400;
+ font-size: larger;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #eee9c7;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+ 
+}
+#about p{
+    font-size: larger;
+    font-weight: 400;
+    text-align: center; 
+}
+#about h2 {
+text-align: center;
+text-decoration: underline;
+font-size: xx-large
+}
+
+#menu p{
+    font-size: larger;
+    font-weight: 400;
+    text-align: center; 
+}
+#menu h2 {
+text-align: center;
+text-decoration: underline;
+font-size: xx-large
+}
+#contact p{
+    font-size: larger;
+    font-weight: 400;
+    text-align: center; 
+}
+#contact h2 {
+text-align: center;
+text-decoration: underline;
+font-size: xx-large
+}
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #d71818;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    line-height: 40px;
+    height: 300px;
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: left;
+    height: 50px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #d71818;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+/* Hover effects for navigation menu links */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d71818;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    background-color: #1a252f;
+}
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: rgb(207, 13, 13);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffa500; /* Change to a different color on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px; /* Increase spacing between sections */
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Owner info styles */
+.owner-info {
+    display: flex;
+    align-items: center;
+}
+
+.owner-info img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.owner-details {
+    flex: 1;
+}
+
+.p1 {
+text-align: center;
+}
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f8ff; /* Soft blue background */
+    color: #333;
+    text-align: center;
+}
+
+form {
+    margin: 50px auto;
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #ffd700; /* Golden border */
+    border-radius: 8px;
+    background-color: #fff8dc; /* Cornsilk background */
+    width: 600px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    
+}
+
+input, button {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Includes padding and border in width */
+}
+
+button {
+    background-color: #32cd32; /* Lime Green */
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #228b22; /* Forest Green */
+}
+
+p#feedback {
+    color: #dc143c; /* Crimson for errors */
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+
